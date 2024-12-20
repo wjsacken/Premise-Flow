@@ -2,7 +2,7 @@ name: Run Python Scripts Automation
 
 on:
   schedule:
-    - cron: '0 */4 * * *'  # This runs every 2 hours
+    - cron:  # '0 */4 * * *' This runs every 2 hours
   workflow_dispatch:  # Allows manual trigger from GitHub UI
 
 jobs:
